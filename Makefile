@@ -1,4 +1,4 @@
-CROSS_PREFIX=arm-linux-gnueabihf-
+CROSS_PREFIX=armv8a-libreelec-linux-gnueabihf-
 CCACHE?=
 CC=$(CCACHE) $(CROSS_PREFIX)gcc
 SDL_CONFIG=pkg-config sdl2
