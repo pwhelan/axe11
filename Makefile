@@ -1,7 +1,7 @@
 CROSS_PREFIX=arm-linux-gnueabihf-
 CCACHE?=
 CC=$(CCACHE) $(CROSS_PREFIX)gcc
-SDL_CONFIG=$(CROSS_PREFIX)pkg-config sdl2
+SDL_CONFIG=pkg-config sdl2
 SDL_CFLAGS=$(shell $(SDL_CONFIG) --cflags)
 SDL_LDFLAGS=$(shell $(SDL_CONFIG) --libs)
 
