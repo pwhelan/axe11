@@ -34,6 +34,9 @@ all: $(LIBSBUILD)
 clean: $(LIBSCLEAN)
 	@echo Done cleaning
 
+install:
+	echo "manually install them onto /opt/axe11 later"
+
 distclean:
 	@rm -rf build
 
